@@ -1,0 +1,11 @@
+name 'my-app'
+maintainer 'Jihoon Kang'
+maintainer_email 'kang@ghoon.net'
+license 'all_rights'
+description 'Installs/Configures my-app'
+long_description 'Installs/Configures my-app'
+version '0.1.0'
+
+depends 'java', '~> 1.39.0'
+depends 'tomcat', '~> 2.0.3'
+depends 'nginx', '~> 2.7.6'
